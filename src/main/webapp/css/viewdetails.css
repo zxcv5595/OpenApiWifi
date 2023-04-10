@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.nav {
+    display: flex;
+    margin-bottom: 20px;
+}
+.nav a {
+    text-decoration: none;
+    color: #000;
+}
+.nav a:hover {
+    color: #007BFF;
+}
+.nav span {
+    margin: 0 5px;
+}
+.coordinate-inputs {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.detail-container {
+    margin: 10px auto;
+    width: 80%;
+    float: left;
+}
+
+.detail-container > div {
+    display: table-row;
+}
+
+.detail-container > div > span {
+    display: table-cell;
+    width: 30%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+
+.detail-container > div > div {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.detail-container > div:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.detail-container > div:nth-child(odd) {
+    background-color: #fff;
+}
